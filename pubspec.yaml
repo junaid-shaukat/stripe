@@ -42,12 +42,8 @@ dependencies:
   uuid: ^4.6.0
   intl: ^0.20.2
   hive_ce: ^2.19.3
-  latlong2: ^0.10.1
   app_links: ^7.2.1
-  flutter_map: ^8.3.1
-  geolocator: ^14.0.3
   flutter_svg: ^2.3.0
-  searchfield: ^2.0.0
   url_launcher: ^6.3.2
   image_picker: ^1.2.3
   file_picker: ^13.1.0
@@ -55,30 +51,22 @@ dependencies:
   path_provider: ^2.1.6
   fluttertoast: ^10.0.0
   firebase_core: ^4.12.1
-  flutter_switch: ^0.3.2
   cupertino_icons: ^2.0.0
   googleapis_auth: ^2.3.3
   hive_ce_flutter: ^2.3.4
-  flutter_stripe: ^14.0.0
   pin_code_fields: ^10.0.0
   connectivity_plus: ^7.3.1
-  device_info_plus: ^13.2.0
-  nominatim_flutter: ^0.0.8
   flutter_rating_bar: ^4.0.1
-  easy_date_timeline: ^2.0.9
   firebase_messaging: ^16.4.3
   permission_handler: ^13.0.0
-  carousel_slider_plus: ^7.1.2
   cached_network_image: ^4.0.0
-  responsive_grid_list: ^1.4.1
   firebase_crashlytics: ^5.3.0
   smooth_page_indicator: ^3.0.0
   flutter_cache_manager: ^3.4.2
-  flutter_markdown_plus: ^1.0.12
   flutter_secure_storage: ^11.0.0
   google_mlkit_translation: ^0.15.1
   google_mlkit_language_id: ^0.15.1
-  flutter_local_notifications: ^22.2.0
+  flutter_local_notifications: ^23.0.0-dev.2
 
 dev_dependencies:
   flutter_test:

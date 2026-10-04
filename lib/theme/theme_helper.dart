@@ -440,6 +440,40 @@ class AppShadows {
   static List<BoxShadow> get focusGlow => [
     BoxShadow(color: Color(0x1F3B4BCC), blurRadius: 0, spreadRadius: 4),
   ];
+
+  /// Splash — circular brand emblem card bloom.
+  static List<BoxShadow> get splashBadge => [
+    BoxShadow(
+      color: Color(0x38DF146E),
+      blurRadius: 40,
+      spreadRadius: -8,
+      offset: Offset(0, 16),
+    ),
+    BoxShadow(
+      color: Color(0x140D224E),
+      blurRadius: 24,
+      spreadRadius: -6,
+      offset: Offset(0, 8),
+    ),
+  ];
+
+  /// Splash — neon glow for the magenta tagline dot.
+  static List<BoxShadow> get glowMagentaDot => [
+    BoxShadow(
+      color: Color(0xA6DF146E),
+      blurRadius: 10,
+      spreadRadius: 2,
+    ),
+  ];
+
+  /// Splash — neon glow for the indigo tagline dot.
+  static List<BoxShadow> get glowIndigoDot => [
+    BoxShadow(
+      color: Color(0x8C0D224E),
+      blurRadius: 10,
+      spreadRadius: 2,
+    ),
+  ];
 }
 
 /// Reusable input decoration factory matching the design system.
