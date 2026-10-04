@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" fill="none">
+<defs>
+<linearGradient id="pinkGradient" x1="20" y1="20" x2="220" y2="180" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#f43f5e"/>
+<stop offset="45%" stop-color="#e11d6d"/>
+<stop offset="100%" stop-color="#9d174d"/>
+</linearGradient>
+<linearGradient id="navyGradient" x1="60" y1="40" x2="220" y2="220" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#1e3a8a"/>
+<stop offset="50%" stop-color="#0f172a"/>
+<stop offset="100%" stop-color="#020617"/>
+</linearGradient>
+<linearGradient id="blendGradient" x1="0" y1="120" x2="240" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#e11d6d"/>
+<stop offset="40%" stop-color="#831843"/>
+<stop offset="100%" stop-color="#0f172a"/>
+</linearGradient>
+</defs>
+<path d="M120 28C101.4 28 84.8 33.6 70.8 43.2C81.2 40.2 92.5 41.5 102.8 47.4C118.8 56.5 137.6 54.8 152 46C142.2 35 128.8 28 120 28Z" fill="url(#pinkGradient)"/>
+<path d="M57 60C51.6 71 49.8 84.2 52.4 97C56.6 88.6 63.8 82 72.8 78.4C93.4 70.2 118.8 77.2 136.4 69.2C151.2 62.4 163.6 50.8 169.2 38C154.2 31.8 137.4 28.6 120 28C92 28 66.8 40.4 50 60C52.4 59.8 54.8 59.8 57 60Z" fill="url(#pinkGradient)"/>
+<path d="M44.8 84C42.2 95.2 42.6 107.2 46.2 118.8C48.6 110.8 53.6 104.2 60.8 100.2C71.8 94.2 74.4 83.4 71.4 75C59.6 74.2 50.4 77.8 44.8 84Z" fill="url(#pinkGradient)"/>
+<path d="M148 42C136 49.2 120 50.8 106 44C136 50 162 70 168 102C172 86 170 70 162 56C178 70 188 90 191 112C194 92 186 68 172 52C164.8 47.6 156.8 44.4 148 42Z" fill="url(#navyGradient)"/>
+<path d="M152 90C166 98 184 102 192 116C194 126 193 137 189 146C192 136 190 120 180 110C168 98 150 96 138 92L152 90Z" fill="url(#navyGradient)"/>
+<path d="M43.2 125C42.6 136.2 45.4 147.4 51.6 157.2C56.8 147.8 66 142.2 76.8 141.4C102 139.6 126.8 126.2 144 116C124 126 98 132 76 126C60.8 121.8 49.8 120 43.2 125Z" fill="url(#pinkGradient)"/>
+<path d="M57 165C74 182 96 192 120 192C146 192 170 180 184 162C164 172 138 170 120 160C100 150 78 152 64 160C61.4 161.4 59.2 163.2 57 165Z" fill="url(#blendGradient)"/>
+<path d="M68 174C82 196 106 208 134 206C162 204 184 188 190 168C182 182 166 192 148 192C122 192 98 178 88 166C80 166 74 169 68 174Z" fill="url(#navyGradient)"/>
+<path d="M96 198C112 204 128 205 144 200C166 193 182 178 188 160C178 184 148 204 116 199C108 198 102 197 96 198Z" fill="#06132f"/>
+</svg>

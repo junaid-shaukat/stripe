@@ -6,7 +6,7 @@ class AppRoutes {
   static const String splash = '/splash';
 
   static List<GetPage> pages = [
-    // GetPage(name: splash, page: () => SplashScreen()),
-    // GetPage(name: initialRoute, page: () => SplashScreen()),
+    GetPage(name: splash, page: () => SplashScreen()),
+    GetPage(name: initialRoute, page: () => SplashScreen()),
   ];
 }

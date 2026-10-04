@@ -353,6 +353,47 @@ class Gradients {
     end: Alignment.bottomRight,
     colors: primaryAction,
   );
+
+  /// AINTIS emblem — magenta swirl gradient (viewbox 240x240).
+  static const LinearGradient emblemPinkLinear = LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Color(0xFFF43F5E), Color(0xFFE11D6D), Color(0xFF9D174D)],
+  );
+
+  /// AINTIS emblem — deep navy swirl gradient.
+  static const LinearGradient emblemNavyLinear = LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Color(0xFF1E3A8A), Color(0xFF0F172A), Color(0xFF020617)],
+  );
+
+  /// AINTIS emblem — dual magenta → indigo blend gradient.
+  static const LinearGradient emblemBlendLinear = LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Color(0xFFE11D6D), Color(0xFF831843), Color(0xFF0F172A)],
+  );
+
+  /// AINTIS splash spinner arc gradient.
+  static const SweepGradient emblemSpinnerSweep = SweepGradient(
+    startAngle: 0,
+    endAngle: 6.283185307179587,
+    colors: [Color(0xFFE83687), Color(0x00000000)],
+  );
+
+  /// Ambient background glow behind the splash emblem.
+  static const RadialGradient splashAmbient = RadialGradient(
+    center: Alignment(0, -0.22),
+    radius: 0.78,
+    colors: [
+      Color(0x47F472B6), // 28% f472b6
+      Color(0x1FDB2777), // 12% db2777
+      Color(0x4DF1F5F9), // 30% f1f5f9
+      Color(0x00F1F5F9), // transparent
+    ],
+    stops: [0.0, 0.28, 0.55, 0.75],
+  );
 }
 
 /// Class containing elevation / ambient shadow presets.
@@ -538,6 +579,43 @@ class ColorCodes {
   // Glass / HUD
   Color get glassFill => const Color(0XD9FFFFFF); // 85% white
   Color get glassBorder => const Color(0X33FFFFFF);
+
+  // AINTIS brand palette (splash / brand emblem)
+  Color get aintisMagenta => const Color(0XFFDF146E);
+  Color get aintisPurple => const Color(0XFFB71775);
+  Color get aintisNavy => const Color(0XFF0D224E);
+  Color get aintisDeepNavy => const Color(0XFF06132F);
+  Color get aintisText => const Color(0XFFD61B6F);
+
+  // AINTIS emblem gradient stops
+  Color get emblemPinkLight => const Color(0XFFF43F5E);
+  Color get emblemPinkMid => const Color(0XFFE11D6D);
+  Color get emblemPinkDark => const Color(0XFF9D174D);
+  Color get emblemNavyLight => const Color(0XFF1E3A8A);
+  Color get emblemNavyMid => const Color(0XFF0F172A);
+  Color get emblemNavyDark => const Color(0XFF020617);
+  Color get emblemBlendMid => const Color(0XFF831843);
+  Color get dotIndigo => const Color(0XFF1E2A5E);
+  Color get loaderArc => const Color(0XFFE83687);
+
+  // AINTIS ambient / glow accents
+  Color get ambientGlowCore => const Color(0X47F472B6); // 28% f472b6
+  Color get ambientGlowMid => const Color(0X1FDB2777); // 12% db2777
+  Color get ambientGlowSoft => const Color(0X4DF1F5F9); // 30% f1f5f9
+  Color get glowMagenta => const Color(0XA6DF146E); // 65% df146e
+  Color get glowIndigo => const Color(0X8C0D224E); // 55% 0d224e
+  Color get badgeShadowMagenta => const Color(0X38DF146E); // 22% df146e
+  Color get badgeShadowNavy => const Color(0X140D224E); // 8% 0d224e
+
+  // System chrome (status / navigation bar)
+  Color get statusBarText => const Color(0XFF555E6D);
+  Color get statusBarTime => const Color(0XFF374151);
+  Color get systemNavBar => const Color(0XFF000000);
+  Color get systemNavIcon => const Color(0XFFA3A3A3);
+
+  // Splash surfaces
+  Color get splashSurface => const Color(0XFFF8FAFC);
+  Color get splashFrameBorder => const Color(0X6666A3B4);
 
   // Utility colors
   Color get success => const Color(0XFF34A853);

@@ -1,0 +1,7 @@
+convert html to flutter
+follow following rules
+1. first read appthem @/lib/theme/theme_helper.dart
+2. add all missing colors in @/lib/theme/theme_helper.dart 
+3. text styles in @/lib/theme/text_style.dart 
+4. container decoration in @/lib/theme/decoration.dart 
+5. button styles in @/lib/theme/button_style.dart
